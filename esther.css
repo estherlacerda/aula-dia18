@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+}
+@font-face{
+    font-family: font_pizza;
+    src: url("CHEAP___.TTF")
+}
+@font-face{
+    font-family: font_pizza2;
+    src: url("panpizza.ttf")
+}
+@font-face{
+    font-family: font_pizza2;
+    src: url("Pencil\ Child.ttf")
+}
+header{
+    height: 500px;
+    background-image: url(pizza2.jpg);
+    background-size: cover; /*ajustar imagem backgraund*/
+    
+}
+nav ul{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    color: aliceblue;
+    background-color: brown;
+}
+li{
+    font-family: font_pizza2;
+    font-size: 55px;
+    
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+    font-family: font_pizza2;
+}
